@@ -7,8 +7,8 @@ scanf("%d",&a);
 if((a%4==0)&&(a%100!=0))
 printf("Yes");
 else if(a%400==0)
-printf("Yes");
+printf("yes");
 else
-printf("No");
+printf("no");
 return 0;
 }
