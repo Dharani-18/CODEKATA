@@ -11,7 +11,6 @@ int main()
         reverse = reverse*10 + remain;
         n /= 10;
     }
-    printf("%d",reverse);
     if(n==reverse)
     {
     printf("no");
