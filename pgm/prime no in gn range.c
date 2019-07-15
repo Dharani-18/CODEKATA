@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,i,flag;
-    scanf("%d%d",&a,&b);
+    int a,c,b,i,flag;
+    scanf("%d%d",&c,&b);
+    a=c+1;
    while(a<b)
    {
            flag = 0;
