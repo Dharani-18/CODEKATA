@@ -1,0 +1,5 @@
+n=int(input("enter n:"))
+d=int(input("enter d:"))
+a=int(input("enter a:"))
+sum1=n/2*(2*a+(n-1)*d)
+print(sum1)
