@@ -1,4 +1,4 @@
-n=int(input())
+n=input()
 x = [int(i) for i in input().split()]
-x.sort(reverse=False)
+x.sort()
 print(' '.join(map(str, x)))
